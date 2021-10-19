@@ -1,0 +1,14 @@
+// workspace settings
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // left to personal preference
+  // "editor.formatOnPaste": true,
+  // "editor.formatOnSave": true,
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true,
+  //   "source.fixAll.format": true
+  // },
+  "files.associations": {
+    "REPO_SETUP.sh.txt": "shellscript"
+  }
+}

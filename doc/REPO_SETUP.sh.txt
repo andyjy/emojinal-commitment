@@ -1,0 +1,26 @@
+# History of various commands used while setting up this repo
+#
+# shouldn't ever need to run this (hence .sh.txt) -
+# the effect of these commands has been saved in the repo itself
+# this file simply included to document/inform how the project is put together
+#
+# nb. files.associations override to format as shellscript in .vscode/settings.json
+
+# typescript
+npm install --save-dev typescript @types/react @types/nodes
+
+npm install --save-dev eslint
+
+# prettier
+npm install --save-dev --save-exact prettier
+
+npm install --save-dev eslint-config-prettier
+
+#
+npm install --save-dev husky lint-staged
+npx husky add .husky/pre-commit "npx lint-staged"
+npm set-script prepare "husky install"
+
+# lerna
+npm install --global lerna
+lerna bootstrap

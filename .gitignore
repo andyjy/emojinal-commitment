@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# next.js
+/.next/
+
+# macOS junk
+.DS_Store
+
+# debug
+npm-debug.log*
+lerna-debug.log*
+
+# temp config for pre-commit hook (see bin/tsc-lint-staged)
+.tsconfig-lint.json
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# editor settings personal to each contributor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json

@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx lint-staged || (echo '\nCheck and fix type/lint errors before commit (or pass --no-verify if you *really* want to proceed..)\n' && exit 1)

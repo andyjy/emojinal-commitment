@@ -1,0 +1,13 @@
+{
+  "packages": ["packages/*"],
+  "version": "0.1.0",
+  "command": {
+    "version": {
+      "allowBranch": ["main", "canary"],
+      "conventionalCommits": true,
+      "createRelease": "github",
+      "exact": true,
+      "message": "release %s"
+    }
+  }
+}
