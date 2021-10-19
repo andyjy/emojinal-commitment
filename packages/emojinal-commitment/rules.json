@@ -2,12 +2,12 @@
   "types": [
     { "type": ["feat", "feature"], "emoji": "✨" },
     { "type": ["fix", "fixes"], "emoji": "🐛" },
-    { "type": ["perf", "performance"], "emoji": "🏎" },
+    { "type": ["perf", "performance"], "emoji": "🏎 " },
     { "type": "refactor", "emoji": "♻️" },
     { "type": ["test", "tests"], "emoji": "🚥" },
     { "type": ["tidy", "polish", "style"], "emoji": "💅" },
     { "type": ["doc", "docs"], "emoji": "📚" },
-    { "type": "build", "emoji": "🛠️" },
+    { "type": "build", "emoji": "🛠️ " },
     { "type": "ci", "emoji": "🤖" }
   ]
 }
