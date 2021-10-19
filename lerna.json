@@ -5,9 +5,8 @@
     "version": {
       "allowBranch": ["main", "canary"],
       "conventionalCommits": true,
-      "createRelease": "github",
       "exact": true,
-      "message": "release %s"
+      "message": "%s"
     }
   }
 }
