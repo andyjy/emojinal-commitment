@@ -1,0 +1,10 @@
+{
+  "name": "emojinal-commitment",
+  "version": "0.1.0",
+  "bin": "bin/emojinal-commitment.js",
+  "type": "module",
+  "scripts": {
+    "lint": "echo todo eslint",
+    "typecheck": "tsc --project tsconfig.json --pretty --noEmit"
+  }
+}
