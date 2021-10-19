@@ -6,5 +6,8 @@
   "scripts": {
     "lint": "echo todo eslint",
     "typecheck": "tsc --project tsconfig.json --pretty --noEmit"
+  },
+  "dependencies": {
+    "gemoji": "^7.0.0"
   }
 }
