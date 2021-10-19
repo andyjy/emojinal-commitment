@@ -19,6 +19,7 @@
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.2",
+    "jest": "^27.3.1",
     "lerna": "^4.0.0",
     "lint-staged": "^11.2.0",
     "monorepo-tsconfig": "file:packages/monorepo-tsconfig",
