@@ -2,6 +2,7 @@
   "name": "emojinal-commitment-monorepo",
   "version": "0.1.0",
   "private": true,
+  "license": "ISC",
   "scripts": {
     "prepare": "husky install",
     "clean": "lerna clean -y && lerna bootstrap",
