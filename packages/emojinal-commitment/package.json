@@ -1,7 +1,7 @@
 {
   "name": "emojinal-commitment",
   "license": "ISC",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "bin": "bin/emojinal-commitment.js",
   "type": "module",
   "scripts": {
