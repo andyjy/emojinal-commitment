@@ -5,7 +5,7 @@
   "bin": "bin/emojinal-commitment.js",
   "type": "module",
   "scripts": {
-    "lint": "echo todo eslint",
+    "lint": "../../node_modules/eslint/bin/eslint.js .",
     "typecheck": "tsc --project tsconfig.json --pretty --noEmit"
   },
   "dependencies": {
