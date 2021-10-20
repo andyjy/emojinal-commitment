@@ -54,6 +54,9 @@ module.exports = {
   // Make calling deprecated APIs throw helpful error messages
   // errorOnDeprecated: false,
 
+  // support ESM in typescript files
+  extensionsToTreatAsEsm: [".ts", ".tsx"],
+
   // Force coverage collection from ignored files using an array of glob patterns
   // forceCoverageMatch: [],
 
@@ -170,7 +173,8 @@ module.exports = {
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   testPathIgnorePatterns: [
     // https://nextjs.org/docs/testing says: ['<rootDir>/node_modules/', '<rootDir>/.next/']
-    "/node_modules/",
+    "node_modules/",
+    "dist/",
     ".next",
   ],
 
@@ -198,7 +202,8 @@ module.exports = {
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   transformIgnorePatterns: [
-    "/node_modules/",
+    "node_modules/",
+    "dist/",
     "^.+\\.module\\.(css|sass|scss)$",
   ],
 

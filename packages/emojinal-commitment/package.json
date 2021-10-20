@@ -3,11 +3,15 @@
   "license": "ISC",
   "version": "0.2.2",
   "bin": "bin/emojinal-commitment.js",
+  "files": [
+    "dist/"
+  ],
   "type": "module",
   "scripts": {
     "lint": "eslint .",
     "typecheck": "tsc --project tsconfig.json --pretty --noEmit",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --config ../../jest.config.js",
+    "build": "tsc --noEmit false --outDir dist"
   },
   "dependencies": {
     "gemoji": "^7.0.0"

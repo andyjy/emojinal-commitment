@@ -14,6 +14,7 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules npm run --workspaces test --if-present"
   },
   "devDependencies": {
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.10.3",
     "@types/react": "^17.0.27",
     "babel-jest": "^27.3.1",

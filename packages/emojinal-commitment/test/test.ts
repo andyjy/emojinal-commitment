@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import ec from "../index.js";
+import ec from "../src/index";
 
 test("empty string", () => {
   expect(ec("")).toBe("");
