@@ -4,6 +4,7 @@
   "command": {
     "version": {
       "allowBranch": ["main", "canary"],
+      "changelogPreset": "emojinalcommits",
       "conventionalCommits": true,
       "exact": true,
       "message": "%s"

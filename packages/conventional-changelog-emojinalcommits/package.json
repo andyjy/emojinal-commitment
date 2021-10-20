@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-emojionalcommits",
-  "version": "4.6.1",
+  "version": "0.2.1",
   "description": "conventional-changelog emojional commits preset",
   "main": "index.js",
   "scripts": {
