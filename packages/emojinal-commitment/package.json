@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "lint": "echo todo eslint",
-    "typecheck": "tsc --project tsconfig.json --pretty --noEmit"
+    "typecheck": "tsc --project tsconfig.json --pretty --noEmit",
+    "test": "../../node_modules/jest/bin/jest.js"
   },
   "dependencies": {
     "gemoji": "^7.0.0"
