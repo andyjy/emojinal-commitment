@@ -1,3 +1,4 @@
+import { test, expect } from "@jest/globals";
 import ec from "../index.js";
 
 test("empty string", () => {

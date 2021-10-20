@@ -5,9 +5,9 @@
   "bin": "bin/emojinal-commitment.js",
   "type": "module",
   "scripts": {
-    "lint": "../../node_modules/eslint/bin/eslint.js .",
+    "lint": "eslint .",
     "typecheck": "tsc --project tsconfig.json --pretty --noEmit",
-    "test": "../../node_modules/jest/bin/jest.js"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "dependencies": {
     "gemoji": "^7.0.0"
