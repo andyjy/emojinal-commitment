@@ -10,11 +10,13 @@
     "typecheck": "npm run --workspaces typecheck --if-present",
     "dev": "FORCE_COLOR=2 lerna run dev --parallel",
     "build": "FORCE_COLOR=2 lerna run build --stream",
-    "start": "FORCE_COLOR=2 lerna run start --parallel"
+    "start": "FORCE_COLOR=2 lerna run start --parallel",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/node": "^16.10.3",
     "@types/react": "^17.0.27",
+    "babel-jest": "^27.3.1",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.3.0",
