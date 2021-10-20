@@ -10,17 +10,20 @@
     "typecheck": "npm run --workspaces typecheck --if-present",
     "dev": "FORCE_COLOR=2 lerna run dev --parallel",
     "build": "FORCE_COLOR=2 lerna run build --stream",
-    "start": "FORCE_COLOR=2 lerna run start --parallel"
+    "start": "FORCE_COLOR=2 lerna run start --parallel",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npm run --workspaces test --if-present"
   },
   "devDependencies": {
     "@types/node": "^16.10.3",
     "@types/react": "^17.0.27",
+    "babel-jest": "^27.3.1",
     "conventional-changelog-conventionalcommits": "^4.6.1",
     "conventional-changelog-emojinalcommits": "file:packages/conventional-changelog-emojinalcommits",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.2",
+    "jest": "^27.3.1",
     "lerna": "^4.0.0",
     "lint-staged": "^11.2.0",
     "monorepo-tsconfig": "file:packages/monorepo-tsconfig",
