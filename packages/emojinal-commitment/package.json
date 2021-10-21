@@ -1,6 +1,6 @@
 {
   "name": "emojinal-commitment",
-  "version": "0.2.3-canary.2",
+  "version": "0.2.3",
   "description": "Git commit-msg hook to automatically bring some emojion to commit messages",
   "author": "Andy Young <npm@apexa.co.uk>",
   "license": "ISC",
