@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx emojinal-commitment $1
+npx emojional-commitment $1

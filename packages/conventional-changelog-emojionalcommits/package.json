@@ -14,6 +14,11 @@
     "writer-opts.js",
     "templates"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyjy/emojional-commitment.git",
+    "directory": "packages/conventional-changelog-emojionalcommits"
+  },
   "engines": {
     "node": ">=10"
   },

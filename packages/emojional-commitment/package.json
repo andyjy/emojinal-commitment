@@ -1,5 +1,5 @@
 {
-  "name": "emojinal-commitment",
+  "name": "emojional-commitment",
   "version": "0.2.5-canary.2",
   "description": "Git commit-msg hook to automatically bring some emojion to commit messages",
   "author": "Andy Young <npm@apexa.co.uk>",
@@ -20,10 +20,10 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andyjy/emojinal-commitment.git",
-    "directory": "packages/emojinal-commitment"
+    "url": "https://github.com/andyjy/emojional-commitment.git",
+    "directory": "packages/emojional-commitment"
   },
-  "bin": "bin/emojinal-commitment.js",
+  "bin": "bin/emojional-commitment.js",
   "files": [
     "dist/"
   ],

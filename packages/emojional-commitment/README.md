@@ -1,4 +1,4 @@
-# emojinal-commitment :heart:
+# emojional-commitment :heart:
 
 Git commit-msg hook to automatically bring some emojion to commit messages.
 
@@ -22,23 +22,23 @@ with commit types roughly based on (a subset of) the [Angular commit message for
 ## Installation
 
 ```sh
-npm install emojinal-commitment --save-dev
+npm install emojional-commitment --save-dev
 
-# configure git commit-msg hook to call `npx emojinal-commitment`
+# configure git commit-msg hook to call `npx emojional-commitment`
 # ..here we use husky to manage git hooks:
 npm install husky --save-dev
 npm set-script prepare "husky install"
 npm run prepare
 # add the hook: (slightly complex to work around npx bug - see below)
-npx --package=husky -c "husky add .husky/commit-msg 'npx emojinal-commitment \"\$1\"'"
+npx --package=husky -c "husky add .husky/commit-msg 'npx emojional-commitment \"\$1\"'"
 
 # commit updated dev dependencies and the .husky/commit-msg git hook to your repo
 git add .husky/commit-msg package*.json
-git commit -m "build: process commit messages with emojinal-commitment"
-# `emojinal-commitment` will run every time you commit
+git commit -m "build: process commit messages with emojional-commitment"
+# `emojional-commitment` will run every time you commit
 ```
 
-_At the time of writing, npx has a bug not passing through escaped command arguments - so we can't simply run `npx husky add commit-msg 'npx emojinal-commitment $1'`. See <https://github.com/typicode/husky/issues/1019>, <https://github.com/npm/cli/issues/3067>._
+_At the time of writing, npx has a bug not passing through escaped command arguments - so we can't simply run `npx husky add commit-msg 'npx emojional-commitment $1'`. See <https://github.com/typicode/husky/issues/1019>, <https://github.com/npm/cli/issues/3067>._
 
 ## Commit types supported - and emoji applied
 

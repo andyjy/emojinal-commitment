@@ -6,7 +6,7 @@ type EmojionalConfigType = {
   emoji: string;
 };
 
-export default function emojinalCommitment(msg: string) {
+export default function emojionalCommitment(msg: string) {
   return msg
     .replace(typeMatch, typeReplacement)
     .replace(noTypeMatch, noTypeReplacement)
