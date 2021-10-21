@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-emojionalcommits",
-  "version": "0.2.3",
+  "version": "0.2.4-canary.0",
   "description": "conventional-changelog emojional commits preset",
   "author": "Andy Young <npm@apexa.co.uk>",
   "license": "ISC",
