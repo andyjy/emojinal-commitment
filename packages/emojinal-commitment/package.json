@@ -1,18 +1,32 @@
 {
   "name": "emojinal-commitment",
-  "license": "ISC",
   "version": "0.2.3-canary.2",
-  "bin": "bin/emojinal-commitment.js",
-  "files": [
-    "dist/"
+  "description": "Git commit-msg hook to automatically bring some emojion to commit messages",
+  "author": "Andy Young <npm@apexa.co.uk>",
+  "license": "ISC",
+  "keywords": [
+    "git",
+    "commit hook",
+    "commit lint",
+    "emoji",
+    "commit message"
   ],
-  "type": "module",
   "scripts": {
     "lint": "eslint .",
     "typecheck": "tsc --project tsconfig.json --pretty --noEmit",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --config ../../jest.config.js",
     "build": "tsc --noEmit false --outDir dist"
   },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyjy/emojinal-commitment.git",
+    "directory": "packages/emojinal-commitment"
+  },
+  "bin": "bin/emojinal-commitment.js",
+  "files": [
+    "dist/"
+  ],
   "dependencies": {
     "gemoji": "^7.0.0"
   }
