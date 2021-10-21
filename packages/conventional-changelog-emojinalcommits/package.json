@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-emojionalcommits",
-  "version": "0.2.2",
+  "version": "0.2.3-canary.1",
   "description": "conventional-changelog emojional commits preset",
   "main": "index.js",
   "scripts": {
