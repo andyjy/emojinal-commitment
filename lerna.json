@@ -3,7 +3,7 @@
   "version": "0.2.2",
   "command": {
     "version": {
-      "allowBranch": ["main", "canary"],
+      "allowBranch": ["main"],
       "changelogPreset": "emojinalcommits",
       "conventionalCommits": true,
       "exact": true,
