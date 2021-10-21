@@ -25,7 +25,8 @@
   },
   "bin": "bin/emojional-commitment.js",
   "files": [
-    "dist/"
+    "dist/",
+    "rules.json"
   ],
   "dependencies": {
     "gemoji": "^7.0.0"
