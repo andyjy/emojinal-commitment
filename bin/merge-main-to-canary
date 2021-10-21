@@ -1,0 +1,14 @@
+#!/bin/bash
+git diff --quiet HEAD..canary
+CLEAN_CANARY=$?
+
+# exit on error
+set -e
+
+git co canary
+git pull --rebase
+git merge main -m "Merge branch 'main' into canary"
+
+if [[ $CLEAN_CANARY -eq "0" ]]; then
+  git push
+fi
