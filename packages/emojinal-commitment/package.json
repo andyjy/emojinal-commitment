@@ -1,7 +1,7 @@
 {
   "name": "emojinal-commitment",
   "license": "ISC",
-  "version": "0.2.3-canary.2",
+  "version": "0.2.3",
   "bin": "bin/emojinal-commitment.js",
   "files": [
     "dist/"

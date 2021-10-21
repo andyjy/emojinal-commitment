@@ -1,6 +1,6 @@
 {
   "packages": ["packages/*"],
-  "version": "0.2.3-canary.2",
+  "version": "0.2.3",
   "command": {
     "version": {
       "allowBranch": ["main"],
