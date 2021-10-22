@@ -9,11 +9,11 @@ with commit types roughly based on (a subset of) the [Angular commit message for
 
 1. Rewrites (some) commit type prefixes to emoji:
 
-> `fix: broken thing now works` -> `🐛 broken thing now works`
+> `fix: broken thing now works` -> `🪲 broken thing now works`
 
 2. Inserts emoji to to illustrate type of (some) commits, even when not using conventional-commit `type:` prefix:
 
-> `fix broken thing` -> `🐛 fix broken thing`
+> `fix broken thing` -> `🪲 fix broken thing`
 
 3. Rewrites `:emoji_shortcodes:` to unicode emoji characters (for nicer display in terminals too, e.g. `git log`)
 
@@ -51,7 +51,7 @@ _Roughly based on (a subset of) the [Angular commit message format](https://gith
 | Emoji |     Type prefix(es)     | Description                                               |
 | :---: | :---------------------: | :-------------------------------------------------------- |
 |  ✨   |    `feat` `feature`     | New feature                                               |
-|  🐛   |          `fix`          | Bug fix                                                   |
+|  🪲    |          `fix`          | Bug fix                                                   |
 |  🏎    |         `perf`          | A code change that improves performance                   |
 |  ♻️   |       `refactor`        | A code change that neither fixes a bug nor adds a feature |
 |  🚥   |     `test` `tests`      | Add or fix tests                                          |
@@ -79,7 +79,7 @@ We intentionally avoid doing anything for other commit types - see below. _Not e
     - `chore:` - should be of little significance, not something to draw attention to while reviewing historic commits. _Encourage the use of more descriptive types - or simply no type prefix for small things. (Just describe the change, don’t need make a big deal of it - it’s an advantage to make it appear of secondary importance in the commit history)._
     - **Releases** - just commit with version label, including “v” prefix: `vX.X.X`. _Self-explanatory, no additional annotation required._
     - **Merge commits** - generally aim to squash-and-merge, picking a descriptive type (`feat|fix|refactor..`). If doing a merge commit (`--no-ff`), stick with standard GitHub convention `Merge pull request #xx from <repo/branch>`. _(The story will be told by the individual commits and their commit messages, which is where we wish to draw attention.)_
-    - **Reverts** - generally stick with standard git convention `Revert ‘<original commit id>’` - a revert typically represents a small step backwards. If we're reverting a significant feature/behaviour, we'd expect to see an appropriately descriptive commit message - the revert itself is likely a (temporary) `🐛 fix:`..
+    - **Reverts** - generally stick with standard git convention `Revert ‘<original commit id>’` - a revert typically represents a small step backwards. If we're reverting a significant feature/behaviour, we'd expect to see an appropriately descriptive commit message - the revert itself is likely a (temporary) `🪲 fix:`..
   - The presence of some emoji draw quick attention to more significant commits - features, fixes, tests, docs, refactoring[^1], meta-changes not regarding app itself (build/ci).
 
 **Finally - to be used by people with a healthy disregard for rules(!)** If you wish to sprinkle your commits with emoji on occasion, this package isn't here to police that.. (that's why we also rewrite `:shortcodes:` and provide flexibility when no `<type>:` prefix is given). But do try to use sparingly, appreciating the intent of [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and the philosophy above.. :wink:
