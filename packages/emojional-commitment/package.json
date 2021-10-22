@@ -12,6 +12,7 @@
     "commit message"
   ],
   "scripts": {
+    "clean": "rimraf dist",
     "lint": "eslint .",
     "typecheck": "tsc --project tsconfig.json --pretty --noEmit",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --config ../../jest.config.js",
