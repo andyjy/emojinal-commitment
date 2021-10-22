@@ -3,5 +3,8 @@
   "rules": {
     "@next/next/no-html-link-for-pages": ["error", "./"]
   },
-  "ignorePatterns": ["*.d.ts"]
+  "ignorePatterns": [
+    "**/*.d.ts",
+    "packages/conventional-changelog-emojionalcommits/**/*"
+  ]
 }

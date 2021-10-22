@@ -176,6 +176,7 @@ module.exports = {
     "node_modules/",
     "dist/",
     ".next",
+    "packages/conventional-changelog-emojionalcommits/",
   ],
 
   // The regexp pattern or array of patterns that Jest uses to detect test files
