@@ -12,7 +12,7 @@ test("no type", () => {
 test("shortcodes", () => {
   expect(ec(":tada:")).toBe("\u2002🎉\u2002");
   expect(ec("oh :tada:")).toBe("oh\u2002🎉\u2002");
-  expect(ec("fix: :tada:")).toBe("🐛\u2002\u2002🎉\u2002");
+  expect(ec("fix: :tada:")).toBe("🪲\u2002\u2002🎉\u2002");
 });
 
 test("feature:", () => {
@@ -29,13 +29,13 @@ test("scope", () => {
 });
 
 test("fix:", () => {
-  expect(ec("fix: bug")).toBe("🐛\u2002bug");
-  expect(ec("fixes: bug")).toBe("🐛\u2002bug");
+  expect(ec("fix: bug")).toBe("🪲\u2002bug");
+  expect(ec("fixes: bug")).toBe("🪲\u2002bug");
 });
 
 test("fix (no type colon:)", () => {
-  expect(ec("fix bug")).toBe("🐛\u2002fix bug");
-  expect(ec("fixes bug")).toBe("🐛\u2002fixes bug");
+  expect(ec("fix bug")).toBe("🪲\u2002fix bug");
+  expect(ec("fixes bug")).toBe("🪲\u2002fixes bug");
 });
 
 test("type! breaking change bang", () => {

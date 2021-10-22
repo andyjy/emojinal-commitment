@@ -1,7 +1,7 @@
 {
   "types": [
     { "type": ["feat", "feature"], "emoji": "✨" },
-    { "type": ["fix", "fixes"], "emoji": "🐛" },
+    { "type": ["fix", "fixes"], "emoji": "🪲" },
     { "type": ["perf", "performance"], "emoji": "🏎 " },
     { "type": "refactor", "emoji": "♻️" },
     { "type": ["test", "tests"], "emoji": "🚥" },

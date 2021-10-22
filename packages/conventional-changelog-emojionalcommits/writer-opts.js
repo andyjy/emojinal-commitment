@@ -194,7 +194,8 @@ function defaultConfig(config) {
     { type: "✨", section: "Features" },
     { type: "feat", section: "Features" },
     { type: "feature", section: "Features" },
-    { type: "🐛", section: "Bug Fixes" },
+    { type: "🪲", section: "Bug Fixes" },
+    { type: "🐛", section: "Bug Fixes" }, // deprecated
     { type: "fix", section: "Bug Fixes" },
     { type: "🏎 ", section: "Performance Improvements" },
     { type: "perf", section: "Performance Improvements" },
