@@ -37,3 +37,9 @@ test("fix (no type colon:)", () => {
   expect(ec("fix bug")).toBe("🐛\u2002fix bug");
   expect(ec("fixes bug")).toBe("🐛\u2002fixes bug");
 });
+
+test("type! breaking change bang", () => {
+  expect(ec("style!: emojinal -> emojional")).toBe(
+    "💅\u2002💥\u2002emojinal -> emojional"
+  );
+});

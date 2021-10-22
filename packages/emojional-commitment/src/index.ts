@@ -20,16 +20,21 @@ const rules = JSON.parse(
 );
 const types = rules.types.map((type: EmojionalConfigType) => type.type).flat();
 
-const typeMatch = new RegExp("^(" + types.join("|") + ")([:([]) ?", "i");
+const typeMatch = new RegExp("^(" + types.join("|") + ")(!?)([:([]) ?", "i");
 const noTypeMatch = new RegExp("^(" + types.join("|") + ") ", "i");
 const shortcodeMatch = / ?:([a-z_]+): ?/gi;
 
-function typeReplacement(match: string, p1: string, p2: string) {
+function typeReplacement(match: string, p1: string, p2: string, p3: string) {
   const rule = getTypeRule(p1);
   if (!rule) {
     return match;
   }
-  return rule.emoji + "\u2002" + (p2 == ":" ? "" : p2);
+  return (
+    rule.emoji +
+    "\u2002" +
+    (p2 == "!" ? rules.breaking + "\u2002" : "") +
+    (p3 == ":" ? "" : p3)
+  );
 }
 
 function noTypeReplacement(match: string, p1: string) {

@@ -9,5 +9,6 @@
     { "type": ["doc", "docs"], "emoji": "📚" },
     { "type": "build", "emoji": "🛠️ " },
     { "type": "ci", "emoji": "🤖" }
-  ]
+  ],
+  "breaking": "💥"
 }
