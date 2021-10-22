@@ -3,8 +3,8 @@
 module.exports = function (config) {
   config = defaultConfig(config)
   return {
-    headerPattern: /^(\w*)(?:\((.*)\))?!?: (.*)$/,
-    breakingHeaderPattern: /^(\w*)(?:\((.*)\))?!: (.*)$/,
+    headerPattern: /^([^ (:\u2002]*)(?:\((.*)\))?!?[:\u2002] ?(.*)$/,
+    breakingHeaderPattern: /^([^ :(\u2002]*)(?:\((.*)\))?![:\u2002] ?(.*)$/,
     headerCorrespondence: [
       'type',
       'scope',

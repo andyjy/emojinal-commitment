@@ -177,18 +177,28 @@ function getWriterOpts (config) {
 function defaultConfig (config) {
   config = config || {}
   config.types = config.types || [
-    { type: 'feat', section: 'Features' },
-    { type: 'feature', section: 'Features' },
-    { type: 'fix', section: 'Bug Fixes' },
-    { type: 'perf', section: 'Performance Improvements' },
-    { type: 'revert', section: 'Reverts' },
-    { type: 'docs', section: 'Documentation', hidden: true },
-    { type: 'style', section: 'Styles', hidden: true },
-    { type: 'chore', section: 'Miscellaneous Chores', hidden: true },
-    { type: 'refactor', section: 'Code Refactoring', hidden: true },
-    { type: 'test', section: 'Tests', hidden: true },
-    { type: 'build', section: 'Build System', hidden: true },
-    { type: 'ci', section: 'Continuous Integration', hidden: true }
+    { type: "✨", section: "Features" },
+    { type: "feat", section: "Features" },
+    { type: "feature", section: "Features" },
+    { type: "🪲", section: "Bug Fixes" },
+    { type: "🐛", section: "Bug Fixes" }, // deprecated
+    { type: "fix", section: "Bug Fixes" },
+    { type: "🏎 ", section: "Performance Improvements" },
+    { type: "perf", section: "Performance Improvements" },
+    { type: "revert", section: "Reverts" },
+    { type: "📚", section: "Documentation", hidden: true },
+    { type: "docs", section: "Documentation", hidden: true },
+    { type: "💅", section: "Polish", hidden: true },
+    { type: "style", section: "Polish", hidden: true },
+    { type: "chore", section: "Miscellaneous Chores", hidden: true },
+    { type: "♻️", section: "Refactoring", hidden: true },
+    { type: "refactor", section: "Refactoring", hidden: true },
+    { type: "🚥", section: "Tests", hidden: true },
+    { type: "test", section: "Tests", hidden: true },
+    { type: "🛠️", section: "Build System", hidden: true },
+    { type: "build", section: "Build System", hidden: true },
+    { type: "🤖", section: "Continuous Integration", hidden: true },
+    { type: "ci", section: "Continuous Integration", hidden: true },
   ]
   config.issueUrlFormat = config.issueUrlFormat ||
     '{{host}}/{{owner}}/{{repository}}/issues/{{id}}'
