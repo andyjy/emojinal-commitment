@@ -26,10 +26,14 @@
   },
   "bin": "bin/emojional-commitment.js",
   "files": [
+    "bin/emojional-commitment.js",
     "dist/",
     "rules.json"
   ],
   "dependencies": {
     "gemoji": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }

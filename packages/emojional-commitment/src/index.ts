@@ -20,8 +20,11 @@ const rules = JSON.parse(
 );
 const types = rules.types.map((type: EmojionalConfigType) => type.type).flat();
 
+/* the following non-literal regexes (i.e. computed) don't include user-submitted input, so we're ok */
+/* eslint-disable security-node/non-literal-reg-expr */
 const typeMatch = new RegExp("^(" + types.join("|") + ")(!?)([:([]) ?", "i");
 const noTypeMatch = new RegExp("^(" + types.join("|") + ") ", "i");
+/* eslint-enable security-node/non-literal-reg-expr */
 const shortcodeMatch = / ?:([a-z_]+): ?/gi;
 
 function typeReplacement(match: string, p1: string, p2: string, p3: string) {

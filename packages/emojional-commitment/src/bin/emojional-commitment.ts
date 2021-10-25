@@ -1,7 +1,5 @@
-#!/usr/bin/env node
-
 import fs from "fs";
-import emojionalCommitment from "../index.js";
+import emojionalCommitment from "../index";
 
 export default function emojionalCommitmentRunner() {
   const msg = fs
