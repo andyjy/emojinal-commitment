@@ -32,6 +32,15 @@
     "node/no-missing-require": "off",
     "node/no-extraneous-import": "off",
     "node/no-extraneous-require": "off",
+    // eslint-plugin-node@11.1.0 always errors these features due to no info on supported node version
+    // so we ignore these checks until such time as the plugin may be updated
+    // - e.g. https://github.com/mysticatea/eslint-plugin-node/pull/286
+    "node/no-unsupported-features/es-syntax": [
+      "error",
+      {
+        "ignores": ["modules", "bigint", "dynamicImport"]
+      }
+    ],
 
     // eslint-plugin-import/recommended analysis/correctness
     "import/no-unresolved": "error",
@@ -48,10 +57,6 @@
     // jest
     // override for jest/style
     "jest/no-alias-methods": "off"
-  },
-
-  "parserOptions": {
-    "ecmaVersion": 2020
   },
 
   "ignorePatterns": ["**/*.d.ts", "**/node_modules", "**/dist"]
