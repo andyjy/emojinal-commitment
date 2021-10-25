@@ -1,1 +1,1 @@
-packages/emojinal-commitment/README.md
+packages/emojional-commitment/README.md
