@@ -1,7 +1,7 @@
 import fs from "fs";
 import emojionalCommitment from "../index";
 
-export default function emojionalCommitmentRunner() {
+export default function emojionalCommitmentRunner(): void {
   const msg = fs
     .readFileSync(process.argv[2] == "-" ? 0 : process.argv[2], "utf8")
     .trim();

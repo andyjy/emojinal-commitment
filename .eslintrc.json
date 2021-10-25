@@ -5,12 +5,13 @@
 
   // n.b. comments are allowed in .eslintrc.json ;)
 
-  "plugins": ["security-node", "jest"],
+  "plugins": ["security-node", "jest", "@typescript-eslint"],
 
   // order matters - prettier goes last
   // prettier-ignore
   "extends": [
     "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:node/recommended",
     "plugin:security-node/recommended",
     "plugin:jest/recommended",

@@ -6,7 +6,7 @@ type EmojionalConfigType = {
   emoji: string;
 };
 
-export default function emojionalCommitment(msg: string) {
+export default function emojionalCommitment(msg: string): string {
   return msg
     .replace(typeMatch, typeReplacement)
     .replace(noTypeMatch, noTypeReplacement)
@@ -49,8 +49,8 @@ function noTypeReplacement(match: string, p1: string) {
 }
 
 function shortcodeReplacement(match: string, p1: string) {
-  return (nameToEmoji as unknown as any)[p1]
-    ? "\u2002" + (nameToEmoji as unknown as any)[p1] + "\u2002"
+  return (nameToEmoji as { [index: string]: string })[p1]
+    ? "\u2002" + (nameToEmoji as { [index: string]: string })[p1] + "\u2002"
     : match;
 }
 
