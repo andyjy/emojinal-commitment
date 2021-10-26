@@ -1,0 +1,12 @@
+{
+  "extends": "monorepo-tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "dist"
+  },
+  // prettier-ignore
+  "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+      ]
+}

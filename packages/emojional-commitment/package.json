@@ -16,7 +16,7 @@
     "lint": "eslint .",
     "typecheck": "tsc --project tsconfig.json --pretty --noEmit",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --config ../../jest.config.js",
-    "build": "tsc --noEmit false --outDir dist"
+    "build": "tsc --project ./tsconfig.build.json"
   },
   "type": "module",
   "repository": {
