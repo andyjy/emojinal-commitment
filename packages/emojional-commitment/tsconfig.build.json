@@ -1,5 +1,5 @@
 {
-  "extends": "monorepo-tsconfig/tsconfig.json",
+  "extends": "@andyjy/monorepo-utils/tsconfig-base.json",
   "compilerOptions": {
     "noEmit": false,
     "outDir": "dist"

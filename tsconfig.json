@@ -2,7 +2,7 @@
   "extends": "@andyjy/monorepo-utils/tsconfig-base.json",
   // prettier-ignore
   "include": [
-      "**/*.ts",
-      "**/*.tsx"
-    ]
+        "**/*.ts",
+        "**/*.tsx"
+      ]
 }

@@ -37,7 +37,6 @@
     "jest": "^27.3.1",
     "lerna": "^4.0.0",
     "lint-staged": "^11.2.0",
-    "monorepo-tsconfig": "file:packages/monorepo-tsconfig",
     "next": "^11.1.3-canary.69",
     "prettier": "2.4.1",
     "rimraf": "^3.0.2",
