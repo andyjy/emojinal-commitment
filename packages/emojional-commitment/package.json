@@ -1,6 +1,6 @@
 {
   "name": "emojional-commitment",
-  "version": "1.0.2-canary.0",
+  "version": "1.0.2",
   "description": "Git commit-msg hook to automatically bring some emojion to commit messages",
   "author": "Andy Young <npm@apexa.co.uk> https://github.com/andyjy",
   "license": "ISC",
@@ -31,7 +31,7 @@
     "rules.json"
   ],
   "dependencies": {
-    "conventional-changelog-emojionalcommits": "1.0.2-canary.0",
+    "conventional-changelog-emojionalcommits": "1.0.2",
     "gemoji": "^7.0.0"
   },
   "engines": {
