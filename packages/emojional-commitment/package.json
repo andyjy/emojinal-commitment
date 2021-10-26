@@ -31,6 +31,7 @@
     "rules.json"
   ],
   "dependencies": {
+    "conventional-changelog-emojionalcommits": "1.0.0",
     "gemoji": "^7.0.0"
   },
   "engines": {
