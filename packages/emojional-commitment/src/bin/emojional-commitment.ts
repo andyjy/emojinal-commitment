@@ -1,5 +1,5 @@
 import fs from "fs";
-import emojionalCommitment from "../index";
+import emojionalCommitment from "../index.js";
 
 export default function emojionalCommitmentRunner(): void {
   const msg = fs
