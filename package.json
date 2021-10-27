@@ -19,7 +19,7 @@
     "publish-releases": "lerna publish from-package"
   },
   "devDependencies": {
-    "@andyjy/monorepo-utils": "0.1.1-canary.4",
+    "@andyjy/monorepo-utils": "0.1.1-canary.5",
     "@jest/globals": "^27.3.1",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.10.3",
