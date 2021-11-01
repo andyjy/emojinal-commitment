@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [1.0.5-canary.0](https://github.com/andyjy/emojional-commitment/compare/v1.0.4...v1.0.5-canary.0) (2021-11-01)
+
+### Bug Fixes
+
+- correctly calculate minor semver bumps on new features ([f6c5035](https://github.com/andyjy/emojional-commitment/commit/f6c5035adb3dc18b819a0b77396b256067c4e6a1))
+
 ### [1.0.4](https://github.com/andyjy/emojional-commitment/compare/v1.0.4-canary.0...v1.0.4) (2021-10-28)
 
 **Note:** Version bump only for package emojional-commitment-monorepo
