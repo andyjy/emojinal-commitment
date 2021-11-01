@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [1.0.5](https://github.com/andyjy/emojional-commitment/compare/v1.0.5-canary.0...v1.0.5) (2021-11-01)
+
+**Note:** Version bump only for package conventional-changelog-emojionalcommits
+
+
+
+
+
 ### [1.0.5-canary.0](https://github.com/andyjy/emojional-commitment/compare/v1.0.4...v1.0.5-canary.0) (2021-11-01)
 
 
