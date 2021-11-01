@@ -20,7 +20,7 @@
     "version": "npm install --package-lock-only && git add package-lock.json"
   },
   "devDependencies": {
-    "@andyjy/monorepo-utils": "0.1.3",
+    "@andyjy/monorepo-utils": "0.2.0",
     "@jest/globals": "^27.3.1",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.10.3",
@@ -38,7 +38,7 @@
     "jest": "^27.3.1",
     "lerna": "^4.0.0",
     "lint-staged": "^11.2.0",
-    "next": "^11.1.3-canary.69",
+    "next": "^12.0.2",
     "prettier": "2.4.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.4.3"
