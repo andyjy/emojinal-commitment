@@ -14,9 +14,9 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules npm run --workspaces test --if-present",
     "prerelease": "npm run clean && npm run build",
     "prerelease-canary": "npm run clean && npm run build",
-    "release-canary": "lerna publish --conventional-prerelease --preid canary --allow-branch canary --dist-tag canary --create-release github",
-    "release": "lerna publish --conventional-graduate --create-release github && npx merge-main-to-canary",
-    "publish-releases": "lerna publish from-package",
+    "release-canary": "NODE_OPTIONS=--experimental-require-module lerna publish --conventional-prerelease --preid canary --allow-branch canary --dist-tag canary --create-release github",
+    "release": "NODE_OPTIONS=--experimental-require-module lerna publish --conventional-graduate --create-release github && npx merge-main-to-canary",
+    "publish-releases": "NODE_OPTIONS=--experimental-require-module lerna publish from-package",
     "version": "npm install --package-lock-only && git add package-lock.json"
   },
   "devDependencies": {
