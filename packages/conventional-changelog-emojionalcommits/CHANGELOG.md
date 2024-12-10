@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.6 (2024-12-10)</small>
+
+* disable package scripts causing breakage on publish ([b95fb7c](https://github.com/andyjy/emojional-commitment/commit/b95fb7c))
+
+
+
+
+
 ## <small>1.0.6-canary.0 (2024-12-10)</small>
 
 **Note:** Version bump only for package conventional-changelog-emojionalcommits

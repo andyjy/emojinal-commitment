@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.6 (2024-12-10)</small>
+
+- 🪲 fix lerna publish loading esm changelog config ([baff49d](https://github.com/andyjy/emojional-commitment/commit/baff49d))
+- disable package scripts causing breakage on publish ([b95fb7c](https://github.com/andyjy/emojional-commitment/commit/b95fb7c))
+- npm audit fix ([69acdae](https://github.com/andyjy/emojional-commitment/commit/69acdae))
+
 ## <small>1.0.6-canary.0 (2024-12-10)</small>
 
 - 🛠️  update devDeps ([d1e66e5](https://github.com/andyjy/emojional-commitment/commit/d1e66e5))
