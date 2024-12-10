@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.6-canary.0 (2024-12-10)</small>
+
+- remove conventional-changelog-emojionalcommits dependency ([71a6328](https://github.com/andyjy/emojional-commitment/commit/71a6328))
+
 ### [1.0.5](https://github.com/andyjy/emojional-commitment/compare/v1.0.5-canary.0...v1.0.5) (2021-11-01)
 
 **Note:** Version bump only for package emojional-commitment
