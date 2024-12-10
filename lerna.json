@@ -9,5 +9,6 @@
       "exact": true,
       "message": "%s"
     }
-  }
+  },
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }

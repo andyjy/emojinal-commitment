@@ -5,3 +5,5 @@ node_modules/
 
 # forked module
 packages/conventional-changelog-emojionalcommits/
+
+/.nx/workspace-data
